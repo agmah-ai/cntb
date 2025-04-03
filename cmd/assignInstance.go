@@ -17,7 +17,7 @@ var AssignInstanceCmd = &cobra.Command{
 	},
 	Args:       cobra.OnlyValidArgs,
 	SuggestFor: []string{"assign", "add", "addInstance"},
-	ValidArgs:  []string{"privateNetwork"},
+	ValidArgs:  []string{"privateNetwork", "vip"},
 }
 
 func init() {

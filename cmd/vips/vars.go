@@ -6,3 +6,10 @@ type jmap map[string]interface{}
 var (
 	listVipNameFilter string
 )
+
+// assign
+var (
+	assignVipResourceType string
+	assignVipIp string
+	assignVipResourceId int64
+)
